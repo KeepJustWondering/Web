@@ -58,7 +58,7 @@ public class BbsDAO {
 	
 	
 	public int write(String bbsTitle, String userID, String bbsContent) {
-		String SQL= "SELECT bbsID FROM BBS VALUE(?,?,?,?,?,?)";
+		String SQL= "INSERT INTO BBS VALUES(?,?,?,?,?,?)";
 		try {
 			PreparedStatement pstmt = conn.prepareStatement(SQL);
 			pstmt.setInt(1, getNext());
@@ -67,8 +67,6 @@ public class BbsDAO {
 			pstmt.setString(4, getDate());
 			pstmt.setString(5, bbsContent);
 			pstmt.setInt(6, 1);
-			
-			rs = pstmt.executeQuery();
 			
 			return pstmt.executeUpdate();
 		} catch (Exception e) {
