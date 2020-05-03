@@ -23,7 +23,7 @@
 			PrintWriter script = response.getWriter();
 			script.println("<script>");
 			script.println("alert('이미 로그인 되어있습니다.')");
-			script.println("location.href = 'main.jsp'");
+			script.println("location.href = 'main.jsp'") ;
 			script.println("</script>");
 		}
 		userDAO userDAO = new userDAO();
