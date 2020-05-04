@@ -109,6 +109,19 @@
 				</tbody>
 
 			</table>
+			<%
+				if(pageNumber !=1){
+			%>
+		
+				<a href = "bbs.jsp?pageNumber=<%= pageNumber-1 %>"class = "btn btn-success btn-arraw-left">이전</a>
+			<%
+				}if(bbsDAO.nextPage(pageNumber +1)){
+			%>
+				<a href = "bbs.jsp?pageNumber=<%= pageNumber+1 %>"class = "btn btn-success btn-arraw-left">다음</a>
+			
+			<%
+				}
+			%>
 			<a href="write.jsp" class ="btn btn-primary pull-right">글쓰기</a>
 		</div>
 	</div>
