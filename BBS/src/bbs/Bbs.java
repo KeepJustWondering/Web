@@ -10,7 +10,6 @@ public class Bbs {
 		this.bbsTitle = bbsTitle;
 	}
 
-	private int bbsID;
 	public int getBbsID() {
 		return bbsID;
 	}
@@ -42,6 +41,7 @@ public class Bbs {
 		this.bbsAvailable = bbsAvailable;
 	}
 
+	private int bbsID;
 	private String bbsTitle;
 	private String userID;
 	private String bbsDate;
