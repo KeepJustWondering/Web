@@ -7,6 +7,7 @@
 <meta charset="UTF-8">
 <meta name = "viewport" content="width= device-width", initial-scale="1">
 <link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/custom.css">
 <title>JSP 게시판 웹 사이트</title>
 </head>
 <body>	
@@ -71,6 +72,49 @@
 		
 		</div>
 	</nav>
+	
+	<div class ="container">
+		<div class ="jumbotron">
+			<h1>웹 사이트 소개</h1>
+			<p>이 웹사이트는 인프런 강의 중  "누구나 따라하면서 배우는 JSP 커뮤니티 게시판 만들기 - 안경잡이개발자" 님의 강의를 보고 따라 만든것 입니다. </p>
+			<p><a class="btn btn-primary btn=pull" href="  https://www.inflearn.com/course/jsp-%EA%B2%8C%EC%8B%9C%ED%8C%90#" role="button">강의로 이동하기</a></p>
+
+		</div>
+		<div class ="container">
+			<div id ="myCarousel" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" calss="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1" calss="active"></li>
+					<li data-target="#myCarousel" data-slide-to="2" ></li>
+					
+					
+				</ol>
+				<ol class="carousel-inner">
+					<div class="item active">
+						<img src="images/비행기.jpg">
+					</div>
+					<div class="item">
+						<img src="images/영국보트.jpg">
+					</div>
+					<div class="item">
+						<img src="images/타워브릿지.jpg">
+					</div>
+					<a class="left carousel-con" href="#myCarousel" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a class="right carousel-con" href="#myCarousel" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+					
+				</ol>
+				
+			</div>
+		</div>
+		
+	</div>
+	
+	
+	
 	
 	<script src = "https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src = "js/bootstrap.js"></script>
