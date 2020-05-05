@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta name = "viewport" content="width= device-width", initial-scale="1">
 <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/custom.css">
@@ -80,7 +80,8 @@
 			<p><a class="btn btn-primary btn=pull" href="  https://www.inflearn.com/course/jsp-%EA%B2%8C%EC%8B%9C%ED%8C%90#" role="button">강의로 이동하기</a></p>
 
 		</div>
-		<div class ="container">
+	
+		<div class ="container" >
 			<div id ="myCarousel" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#myCarousel" data-slide-to="0" calss="active"></li>
@@ -112,8 +113,7 @@
 		</div>
 		
 	</div>
-	
-	
+
 	
 	
 	<script src = "https://code.jquery.com/jquery-3.1.1.min.js"></script>
