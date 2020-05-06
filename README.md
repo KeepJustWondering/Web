@@ -15,3 +15,6 @@
               <li>결과,사용과정 이미지 read 파일에 추가</li>
               <li>메인페이지 스타트 부트스트랩에서 무료 템플릿 가져와서 적용</li>
 </ul>
+
+
+<img src="https://user-images.githubusercontent.com/64457575/81181968-2a1dc480-8fe8-11ea-9919-9eb6cfa66c7e.PNG" width=90%></img>
