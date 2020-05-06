@@ -12,7 +12,7 @@
               <li>게시판에서 삭제된 글이 있으면 목록에서 삭제된 글의 빈 자리 채우기</li>
               <li>글의 수에따라 하단에 이동할수 있는 페이지 생성</li>
               <li>게시판 글 목록에서 이전버튼과 다음버튼 항시 생성 및 필요시에만 활성화</li>
-              <li>결과,사용과정 이미지 read 파일에 추가</li>
+              <li>결과,사용과정 이미지 read 파일에 추가(진행중)</li>
               <li>메인페이지 스타트 부트스트랩에서 무료 템플릿 가져와서 적용</li>
 </ul>
 
@@ -36,7 +36,7 @@
 
 <p>게시판 다음버튼 활성화 상태</p> 
 <img src="https://user-images.githubusercontent.com/64457575/81182627-01e29580-8fe9-11ea-95c5-dd6a9c20cadb.PNG" width=90%></img>
-mg>
+
 
 <p>게시판 이전버튼 활성화 상태</p> 
 <img src="https://user-images.githubusercontent.com/64457575/81182650-0c049400-8fe9-11ea-8b1b-3ddbb70b8b05.PNG" width=90%></img>
