@@ -15,10 +15,12 @@
               <li>결과,사용과정 이미지 read 파일에 추가(진행중)</li>
               <li>메인페이지 스타트 부트스트랩에서 무료 템플릿 가져와서 적용</li>
 </ul>
+<div>
 <br>
 <p>게시판 메인 상단</p> 
 <img src="https://user-images.githubusercontent.com/64457575/81181968-2a1dc480-8fe8-11ea-9919-9eb6cfa66c7e.PNG" width=90%></img>
 <br>
+
 <p>게시판 메인 하단</p> 
 <img src="https://user-images.githubusercontent.com/64457575/81182422-b8924600-8fe8-11ea-847a-46bf5334774c.PNG" width=90%></img>
 <br>
@@ -52,6 +54,5 @@
 <p>게시판 글 삭제버튼 클릭</p> 
 <img src="https://user-images.githubusercontent.com/64457575/81182705-250d4500-8fe9-11ea-8388-1cc79cd43211.PNG" width=90%></img>
 <br>
-
-
+</div>
 
